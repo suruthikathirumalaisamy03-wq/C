@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double p,r,n;
+    scanf("%lf %lf %lf",&p,&r,&n);
+    double ci =p*pow(1+r/100,n);
+    double amount = ci-p;
+    printf("%.2lf\n",amount); 
+    return 0;
+}
