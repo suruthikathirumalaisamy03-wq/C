@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+   double a,b,sum;
+    scanf("%lf %lf",&a,&b);
+    sum=a+b;
+    if(sum== (long)sum)
+     printf("%ld",(long)sum);
+    else
+        printf("%.1f",sum);
+    return 0;
+}
