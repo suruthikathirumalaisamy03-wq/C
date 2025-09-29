@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() {
+    int x;
+    scanf("%d",&x);
+    
+    if((x>=76)&&(x<=100))
+        printf("A");
+    else if ((x>=51)&&(x<=75))
+         printf("B");
+    else if ((x>=26)&&(x<=50))
+         printf("C");
+    else if ((x>=0)&&(x<=25))
+                 printf("D");
+        else
+                printf("invalid");
+    return 0;
+}
