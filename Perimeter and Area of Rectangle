@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double l,w,area,perimeter;
+    scanf("%lf %lf",&l,&w);
+    area = l*w;
+    perimeter=2*(l+w);
+    printf("Area : %.2lf\n",area);
+    printf("Perimeter : %.2lf\n",perimeter);    
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
