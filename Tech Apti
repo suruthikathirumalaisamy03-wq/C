@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() {
+    int x;
+    scanf("%d",&x);
+    if(x<1)
+        printf("Wind condition is Calm");
+    else if ((x>=1)&&(x<=3))
+        printf("Wind condition is Light Air");
+    else if ((x>=4)&&(x<=27))
+         printf("Wind condition is Breeze");
+    else if ((x>=28)&&(x<=47))
+         printf("Wind condition is Gale");
+    else if ((x>=48)&&(x<=63))
+                 printf("Wind condition is Storm");
+        else
+                printf("Wind condition is Hurricane");  
+    return 0;
+}
