@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double r,area,perimeter;
+    scanf("%lf",&r);
+    area=22/7.0*r*r;
+    perimeter=2*22/7.0*r;
+    printf("Area : %.2lf\n",area);
+    printf("Perimeter : %.2lf\n",perimeter);
+    return 0;
+}
