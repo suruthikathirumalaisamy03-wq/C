@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double p,r,y;
+    scanf("%lf %lf %lf",&p,&r,&y);
+    double amount=p*r*y/100;
+    printf("%.2lf",amount); 
+    return 0;
+}
