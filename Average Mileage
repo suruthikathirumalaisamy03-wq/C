@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double x,y,z;
+    scanf("%lf %lf %lf",&x,&y,&z);
+    double Mileage=z/(x/y);
+    double costkm=y/Mileage;
+    printf("Mileage : %07.2lf\n",Mileage);
+    printf("Cost/KM : %07.2lf",costkm); 
+    return 0;
+}
